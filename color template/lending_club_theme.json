@@ -1,0 +1,83 @@
+{
+  "name": "Lending Club Credit Risk",
+  "dataColors": [
+    "#14B8A6",
+    "#3B82F6",
+    "#F59E0B",
+    "#E5484D",
+    "#16315A",
+    "#9CA3AF",
+    "#0B1F3A",
+    "#6EE7D8"
+  ],
+  "background": "#FFFFFF",
+  "foreground": "#1F2937",
+  "tableAccent": "#0B1F3A",
+  "good": "#14B8A6",
+  "neutral": "#F59E0B",
+  "bad": "#E5484D",
+  "maximum": "#E5484D",
+  "center": "#F59E0B",
+  "minimum": "#14B8A6",
+  "null": "#9CA3AF",
+  "textClasses": {
+    "callout": {
+      "fontSize": 28,
+      "fontFace": "Segoe UI Semibold",
+      "color": "#1F2937"
+    },
+    "title": {
+      "fontSize": 12,
+      "fontFace": "Segoe UI Semibold",
+      "color": "#1F2937"
+    },
+    "header": {
+      "fontSize": 12,
+      "fontFace": "Segoe UI Semibold",
+      "color": "#1F2937"
+    },
+    "label": {
+      "fontSize": 10,
+      "fontFace": "Segoe UI",
+      "color": "#6B7280"
+    }
+  },
+  "visualStyles": {
+    "*": {
+      "*": {
+        "title": [
+          {
+            "show": true,
+            "fontColor": { "solid": { "color": "#1F2937" } },
+            "fontSize": 12,
+            "fontFamily": "Segoe UI Semibold"
+          }
+        ],
+        "background": [
+          {
+            "show": true,
+            "color": { "solid": { "color": "#FFFFFF" } },
+            "transparency": 0
+          }
+        ],
+        "border": [
+          {
+            "show": true,
+            "color": { "solid": { "color": "#E5E7EB" } },
+            "radius": 8
+          }
+        ]
+      }
+    },
+    "page": {
+      "*": {
+        "background": [
+          {
+            "color": { "solid": { "color": "#F4F6FA" } },
+            "transparency": 0
+          }
+        ]
+      }
+    }
+  }
+}
